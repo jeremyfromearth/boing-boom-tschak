@@ -10,8 +10,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3D315A8C-33B3-4FF6-A1A1-A97081776AF1}</ProjectGuid>
-    <RootNamespace>AutoPanNode</RootNamespace>
+    <ProjectGuid>{AA81F094-E097-4220-986F-5F58C9F41A9C}</ProjectGuid>
+    <RootNamespace>TremoloEffectNode</RootNamespace>
     <Keyword>Win32Proj</Keyword>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -108,7 +108,7 @@
   <ItemGroup />
   <ItemGroup />
   <ItemGroup>
-    <ClCompile Include="..\src\AutoPanNodeApp.cpp" />
+    <ClCompile Include="..\src\TremoloEffectNodeApp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h" />

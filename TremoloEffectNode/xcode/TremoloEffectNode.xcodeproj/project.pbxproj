@@ -18,10 +18,10 @@
 		00B9955B1B128DF400A5C623 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995591B128DF400A5C623 /* IOSurface.framework */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		06407939F78D4807A4617F74 /* AutoPanNode_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 448F770FA8D141558B6FC9AC /* AutoPanNode_Prefix.pch */; };
-		ED3A1787EE234791A89BF466 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1F00E58963774DF89D47D0D4 /* CinderApp.icns */; };
-		35BB31B4F61E47F4962D90A1 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 03425FD31BDE491197459637 /* Resources.h */; };
-		7D9024649DF94525BE108300 /* AutoPanNodeApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 700E6443265040598DC5D3D8 /* AutoPanNodeApp.cpp */; };
+		EEEC4E3D065D46D7BBD5324B /* TremoloEffectNode_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 1A571F0420DD4461AAE6735E /* TremoloEffectNode_Prefix.pch */; };
+		24F49F6B60334D288696E03B /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 27526ED7701E4C00B96F9D42 /* CinderApp.icns */; };
+		1BE67BDC71F34FEE99EE3540 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C7494AF6D1843C487109EA2 /* Resources.h */; };
+		F99AE1D89E234B1CA54946FA /* TremoloEffectNodeApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6EBB9AFB05241C8915A0DF3 /* TremoloEffectNodeApp.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,12 +38,12 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
-		8D1107320486CEB800E47090 /* AutoPanNode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoPanNode.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		700E6443265040598DC5D3D8 /* AutoPanNodeApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/AutoPanNodeApp.cpp; sourceTree = "<group>"; name = AutoPanNodeApp.cpp; };
-		03425FD31BDE491197459637 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
-		1F00E58963774DF89D47D0D4 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
-		EF02A6F3913543D78249EBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
-		448F770FA8D141558B6FC9AC /* AutoPanNode_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = AutoPanNode_Prefix.pch; sourceTree = "<group>"; name = AutoPanNode_Prefix.pch; };
+		8D1107320486CEB800E47090 /* TremoloEffectNode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TremoloEffectNode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6EBB9AFB05241C8915A0DF3 /* TremoloEffectNodeApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/TremoloEffectNodeApp.cpp; sourceTree = "<group>"; name = TremoloEffectNodeApp.cpp; };
+		8C7494AF6D1843C487109EA2 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
+		27526ED7701E4C00B96F9D42 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
+		F0550607097A4536A543B4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
+		1A571F0420DD4461AAE6735E /* TremoloEffectNode_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = TremoloEffectNode_Prefix.pch; sourceTree = "<group>"; name = TremoloEffectNode_Prefix.pch; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				700E6443265040598DC5D3D8 /* AutoPanNodeApp.cpp */,
+				C6EBB9AFB05241C8915A0DF3 /* TremoloEffectNodeApp.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -106,12 +106,12 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* AutoPanNode.app */,
+				8D1107320486CEB800E47090 /* TremoloEffectNode.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA /* AutoPanNode */ = {
+		29B97314FDCFA39411CA2CEA /* TremoloEffectNode */ = {
 			isa = PBXGroup;
 			children = (
 				01B97315FEAEA392516A2CEA /* Blocks */,
@@ -121,7 +121,7 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
-			name = AutoPanNode;
+			name = TremoloEffectNode;
 			sourceTree = "<group>";
 		};
 		01B97315FEAEA392516A2CEA /* Blocks */ = {
@@ -134,8 +134,8 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				03425FD31BDE491197459637 /* Resources.h */,
-				448F770FA8D141558B6FC9AC /* AutoPanNode_Prefix.pch */,
+				8C7494AF6D1843C487109EA2 /* Resources.h */,
+				1A571F0420DD4461AAE6735E /* TremoloEffectNode_Prefix.pch */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -143,8 +143,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1F00E58963774DF89D47D0D4 /* CinderApp.icns */,
-				EF02A6F3913543D78249EBAB /* Info.plist */,
+				27526ED7701E4C00B96F9D42 /* CinderApp.icns */,
+				F0550607097A4536A543B4E2 /* Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -161,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* AutoPanNode */ = {
+		8D1107260486CEB800E47090 /* TremoloEffectNode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "AutoPanNode" */;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TremoloEffectNode" */;
 			buildPhases = (
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
@@ -173,10 +173,10 @@
 			);
 			dependencies = (
 			);
-			name = AutoPanNode;
+			name = TremoloEffectNode;
 			productInstallPath = "$(HOME)/Applications";
-			productName = AutoPanNode;
-			productReference = 8D1107320486CEB800E47090 /* AutoPanNode.app */;
+			productName = TremoloEffectNode;
+			productReference = 8D1107320486CEB800E47090 /* TremoloEffectNode.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -184,7 +184,7 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AutoPanNode" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TremoloEffectNode" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -194,11 +194,11 @@
 				French,
 				German,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA /* AutoPanNode */;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TremoloEffectNode */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* AutoPanNode */,
+				8D1107260486CEB800E47090 /* TremoloEffectNode */,
 			);
 		};
 /* End PBXProject section */
@@ -208,7 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED3A1787EE234791A89BF466 /* CinderApp.icns in Resources */,
+				24F49F6B60334D288696E03B /* CinderApp.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D9024649DF94525BE108300 /* AutoPanNodeApp.cpp in Sources */,
+				F99AE1D89E234B1CA54946FA /* TremoloEffectNodeApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,13 +240,13 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = AutoPanNode_Prefix.pch;
+				GCC_PREFIX_HEADER = TremoloEffectNode_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libcinder.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = AutoPanNode;
+				PRODUCT_NAME = TremoloEffectNode;
 				SYMROOT = ./build;
 				WRAPPER_EXTENSION = app;
 			};
@@ -267,13 +267,13 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = AutoPanNode_Prefix.pch;
+				GCC_PREFIX_HEADER = TremoloEffectNode_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libcinder.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = AutoPanNode;
+				PRODUCT_NAME = TremoloEffectNode;
 				STRIP_INSTALLED_PRODUCT = YES;
 				SYMROOT = ./build;
 				WRAPPER_EXTENSION = app;
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "AutoPanNode" */ = {
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TremoloEffectNode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4B08A954540054247B /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AutoPanNode" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TremoloEffectNode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

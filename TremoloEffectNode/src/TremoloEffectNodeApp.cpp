@@ -12,9 +12,9 @@ using namespace ci;
 using namespace ci::app;
 using namespace cinder::audio;
 
-class AutoPan : public Node {
+class Tremolo : public Node {
 public:
-    AutoPan(const Format &format = Format()) : Node(format) {};
+    Tremolo(const Format &format = Format()) : Node(format) {};
     
     Param * freq;
     Param * mix;
@@ -46,27 +46,27 @@ protected:
     }
 };
 
-typedef std::shared_ptr<AutoPan> AutoPanRef;
+typedef std::shared_ptr<Tremolo> TremoloRef;
 
-class AutoPanNodeApp : public App {
+class TremoloEffectNodeApp : public App {
 public:
     void setup() override;
     void draw() override;
     
     audio::Context * ctx;
-    AutoPanRef pan;
+    TremoloRef pan;
     audio::GainNodeRef gain;
     audio::GenTriangleNodeRef osc;
 };
 
-void AutoPanNodeApp::setup() {
+void TremoloEffectNodeApp::setup() {
     ctx = audio::master();
     
     Node::Format f;
     f.setChannels(2);
     osc = ctx->makeNode(new GenTriangleNode(f));
     osc->setFreq(220);
-    pan = ctx->makeNode(new AutoPan(f));
+    pan = ctx->makeNode(new Tremolo(f));
     gain = ctx->makeNode(new audio::GainNode);
     osc >> pan >> gain >> ctx->getOutput();
     pan->enable();
@@ -74,8 +74,8 @@ void AutoPanNodeApp::setup() {
     ctx->enable();
 }
 
-void AutoPanNodeApp::draw() {
+void TremoloEffectNodeApp::draw() {
     gl::clear( Color( 0, 0, 0 ) );
 }
 
-CINDER_APP(AutoPanNodeApp, RendererGl)
+CINDER_APP(TremoloEffectNodeApp, RendererGl)
