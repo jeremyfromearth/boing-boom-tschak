@@ -1,2 +1,2 @@
 # boing-boom-tschak
-Clone this repo into your `cinder/blocks` directory and enjoy
+Clone this repo into `cinder/blocks` and enjoy
