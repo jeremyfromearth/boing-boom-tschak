@@ -9,6 +9,7 @@
 #include "cinder/gl/gl.h"
 #include "cinder/gl/TextureFont.h"
 #include "cinder/params/Params.h"
+#include "cinder/audio/SampleRecorderNode.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -263,6 +264,7 @@ public:
     SequencerRef sequencer;
     audio::Context * ctx;
     audio::GainNodeRef gain;
+    audio::BufferRecorderNodeRef recorder;
     params::InterfaceGlRef params;
     string timeStamp;
 };
@@ -271,8 +273,9 @@ void StepSequencerApp::setup() {
     // Set up audio components
     ctx = audio::master();
     sequencer = ctx->makeNode(new Sequencer);
+    recorder = ctx->makeNode(new BufferRecorderNode());
     gain = ctx->makeNode(new audio::GainNode);
-    sequencer >> gain >> ctx->getOutput();
+    sequencer >> gain >> recorder >> ctx->getOutput();
     for(int i = 0; i < 16; i++) {
         sequencer->addSource(i, Source::create(randInt(200, 1000)));
     }
@@ -293,7 +296,10 @@ void StepSequencerApp::setup() {
 void StepSequencerApp::togglePlayback() {
     if(sequencer->isEnabled()) {
         sequencer->disable();
+        recorder->stop();
+        recorder->writeToFile("./test.wav");
     } else {
+        
         for(auto kv : sequencer->getSources()) {
             for(auto source : kv.second) {
                 source->reset();
@@ -301,6 +307,8 @@ void StepSequencerApp::togglePlayback() {
         }
         sequencer->reset();
         sequencer->enable();
+        recorder->setNumSeconds(10.0f);
+        recorder->start();
     }
 }
 

@@ -24,7 +24,7 @@ protected:
     virtual void initialize() override {
         phase = 0.0f;
         freq = new Param(this, 2.1f);
-        mix = new Param(this, 1.0f);
+        mix = new Param(this, 0.5f);
     };
     
     virtual void process(ci::audio::Buffer * buffer) override {
@@ -36,7 +36,6 @@ protected:
             phase = fmodf(phase + phaseInc, 2.0f * M_PI);
             float pan = abs(sin(phase)) * mix->getValue();
             for(int j = 0; j < numChannels; j++) {
-                if(j == 1) pan = 1 - pan;
                 int index = j * numFrames + i;
                 float initial = data[index];
                 data[index] *= pan;
