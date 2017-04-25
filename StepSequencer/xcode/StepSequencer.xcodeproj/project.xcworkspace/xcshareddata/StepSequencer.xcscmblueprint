@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B4B2CE3C580A5D85DC87226D6D8FB3D3B839245C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AD4B458D0D225ED63FAE0155615993B7D3ECE020" : 9223372036854775807,
+    "B4B2CE3C580A5D85DC87226D6D8FB3D3B839245C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9E59DF97-5CD4-4D01-9503-693127A26BED",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AD4B458D0D225ED63FAE0155615993B7D3ECE020" : "..",
+    "B4B2CE3C580A5D85DC87226D6D8FB3D3B839245C" : "BoingBoomTschak\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "StepSequencer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "StepSequencer\/xcode\/StepSequencer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cinder\/Cinder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD4B458D0D225ED63FAE0155615993B7D3ECE020"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:jeremyfromearth\/boing-boom-tschak.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B4B2CE3C580A5D85DC87226D6D8FB3D3B839245C"
+    }
+  ]
+}

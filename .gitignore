@@ -25,3 +25,7 @@
 *.exe
 *.out
 *.app
+
+# Cinder Build
+build/
+
